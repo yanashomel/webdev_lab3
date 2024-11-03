@@ -1,0 +1,161 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #4CAF50; 
+    color: #fff; 
+    text-align: center;
+    padding: 30px 0; 
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #a4d88e; 
+    padding: 1rem;
+  }
+  
+  .navbar a {
+    color: #159d06; 
+    margin: 0 1.5rem; 
+    text-decoration: none;
+    font-weight: bold; 
+    
+  }
+  
+  .navbar a:hover {
+    color: #0a6f03; 
+  }
+  
+  /* Section Titles */
+  h2 {
+    text-align: center;
+    margin: 30px 0; 
+    color: #333; 
+  }
+  
+  /* Biodata Section */
+  .biodata-section {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e0f7da; 
+    border-radius: 10px; 
+    text-align: center;
+  }
+  
+  /* Centered Photo */
+  .photo img {
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+    border: 3px solid black; 
+    margin-bottom: 20px;
+  }
+  
+  /* General styling for images with a black border */
+  img {
+    border: 3px solid black; 
+    border-radius: 10px; 
+    object-fit: cover; 
+  }
+  
+  /* Biodata Table */
+  .biodata-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #a0c4a4; 
+    text-align: left;
+  }
+  
+  /* Hobbies Section */
+  .hobbies-section {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d1f2eb; 
+    border-radius: 10px; 
+  }
+  
+  .hobby-gallery-horizontal {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .hobby-item {
+    text-align: center;
+    width: 300px; 
+  }
+  
+  .hobby-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Campus Life Section */
+  .campus-life-section {
+    width: 90%;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #f9ebd6; 
+    border-radius: 10px; 
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; 
+    margin: 20px 0; /
+  }
+  
+  .gallery-item {
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .gallery-image {
+    width: 300px; 
+    height: 200px; 
+    border-radius: 15px; 
+    border: 3px solid black; 
+    object-fit: cover; 
+  }
+  
+  .image-description {
+    margin-top: 10px; 
+    font-style: italic; 
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px 0; 
+    background-color: #4CAF50; 
+    color: white;
+    margin-top: 20px;
+  }
